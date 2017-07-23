@@ -1,1 +1,1 @@
-Clone BBC site: http://www.bbc.com/news/technology
+BBC News Website Project
