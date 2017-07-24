@@ -6,7 +6,7 @@
     <style type="text/css">
 
       #topbar {
-        width: 1000px;
+        width: 1200px;
         margin: 0 auto;
         height: 40px;
       }
@@ -19,10 +19,9 @@
     /* BBC logo */
       #logo {
         margin-top: 8px;
-        width: 100px;
+        width: 90px;
         float: left;
         margin-right: 8px;
-
       }
 
       .topbar-section {
@@ -34,7 +33,7 @@
       /* sign in section */
       #signin-img {
         width: 50px;
-        margin: 8px 5px;
+        margin: 8px 3px;
         float:left;
       }
       /* sign in text */
@@ -42,16 +41,40 @@
         font-weight: bold;
         font-size: 85%;
         position: relative;
-        padding-top: 17px;
-        padding-right: 60 px;
-        float: right;
-
+        padding: 17px 50px;
+        margin-left: 10px;
       }
 
       .topbar-menu {
         font-weight: bold;
         font-size: 15px;
-        padding: 14px 15px;
+        padding: 14px 15px 0 15px;
+        height: 27px;
+      }
+
+      #arrow {
+        width: 20px;
+        margin-left: 20px;
+      }
+
+      #search-box {
+        background-color: #E4E4E4;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 5px 0 5px 5px;
+        margin: 5px;
+        float: left;
+      }
+
+      /* fix space between search box and magnifying glass */
+      
+      #glass {
+        height: 27px;
+        margin-top: 5px;
+        float:left;
+
+
       }
     </style>
 
@@ -89,7 +112,20 @@
           Travel
         </div>
 
+        <div class="topbar-section topbar-menu">
+          More
+          <img id="arrow" src="images/arrow.png">
+        </div>
+
+        <div class="topbar-section">
+
+          <input id="search-box" type="text" value="Search">
+
+          <input type="image" id="glass" src="images/search.png">
+
       </div>
+
+    </div>
 
 
 
