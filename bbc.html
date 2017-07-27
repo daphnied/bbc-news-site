@@ -111,20 +111,37 @@
 				margin: 0 auto;
 				height: 40px;
 			}
-
+			/* styles all the links in menu-bar-2 the same */
 			#menu-bar-2 a{
 				color: white;
 				text-decoration: none;
 				font-size: 15px;
-				padding: 0 10px;
+				padding: 0px 10px;
 				position: relative;
-				top: 8px;
 				border-right: 1px solid #BB4545;
+				top: 10px;
 				}
+
+				#menu-bar-2 a: hover {
+					text-decoration: underline;
+				}
+
+				/*!imortant takes precedence over any other instructions */
+				.no-border {
+					border: none !important;
+				}
+
+				/* arrow needs to be closer to the word more */
+				#red-arrow {
+					height: 15px;
+					position: relative;
+					top: 12px;
+				}
+
 		</style>
 
 	</head>
-	<!-- page categories-->
+	<!-- page categories for topbar-menu-->
 		<body>
 			<div id="topbar">
 				<img id="logo" src="images/bbc-logo.png">
@@ -182,7 +199,7 @@
 					<h1>NEWS</h1>
 
 					</div>
-
+					<!--news categories for second menu-bar-2-->>
 					<div id="menu-bar-2-container">
 
 						<div id="menu-bar-2">
@@ -198,7 +215,10 @@
 							<a href="">Magazine</a>
 							<a href="">Entertainment &amp; Arts</a>
 							<a href="">Health</a>
-							<a href="">More</a>
+							<a href="" class="no-border">More</a>
+
+							<img id="red-arrow" src="images/red-arrow.png">
+
 
 
 					</div>
