@@ -62,12 +62,11 @@
 				border: none;
 				font-weight: bold;
 				font-size: 14px;
-				padding: 5px 0 5px 5px;
-				margin: 5px;
+				padding: 5px;
+				margin: 5px 0 5px 5px;
 				float: left;
 			}
 
-			/* fix space between search box and magnifying glass */
 
 			#glass {
 				height: 27px;
@@ -101,18 +100,24 @@
 				font-size: 40px;
 				font-weight: normal;
 			}
-
+			/* Change position of Home menu section. Place under News heading  */
 			#menu-bar-2-container {
 				background-color: #A91717;
 				width: 100%;
+				position: relative;
+				float: inherit;
+				margin-left: auto;
 			}
 			#menu-bar-2 {
 				width: 1000px;
 				margin: 0 auto;
 				height: 40px;
+				margin-left: 163px;
 			}
 			/* styles all the links in menu-bar-2 the same */
-			#menu-bar-2 a{
+
+
+			#menu-bar-2 a {
 				color: white;
 				text-decoration: none;
 				font-size: 15px;
@@ -120,13 +125,14 @@
 				position: relative;
 				border-right: 1px solid #BB4545;
 				top: 10px;
+
 				}
 
 				#menu-bar-2 a: hover {
 					text-decoration: underline;
 				}
 
-				/*!imortant takes precedence over any other instructions */
+				/*!imortant takes importance over any other instructions */
 				.no-border {
 					border: none !important;
 				}
@@ -136,6 +142,16 @@
 					height: 15px;
 					position: relative;
 					top: 12px;
+				}
+				#page-container {
+					width: 1000px;
+					margin: 0 auto;
+				}
+				h2 {
+					font-weight: normal;
+					margin-top: 40px;
+					font-size: 20px;
+					margin-left: 170px;
 				}
 
 		</style>
@@ -199,7 +215,7 @@
 					<h1>NEWS</h1>
 
 					</div>
-					<!--news categories for second menu-bar-2-->>
+					<!--news categories for second menu-bar-2-->
 					<div id="menu-bar-2-container">
 
 						<div id="menu-bar-2">
@@ -226,6 +242,18 @@
 					</div>
 
 				 </div>
+
+			<div class="clear"></div>
+			<div id="main-article">
+				<h2>Technology</h2>
+
+
+				<div id="page-container">
+
+
+				</div>
+
+			</div>
 
 		</body>
 
