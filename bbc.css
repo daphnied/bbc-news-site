@@ -1,0 +1,307 @@
+#topbar {
+  width: 1100px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* BBC logo */
+#logo {
+  margin-top: 8px;
+  width: 90px;
+  float: left;
+  margin-right: 8px;
+}
+
+.topbar-section {
+  float: left;
+  border-left: 1px #CCCCCC solid;
+  height: 100%;
+}
+
+/* sign in section */
+#signin-img {
+  width: 50px;
+  margin: 8px 3px;
+  float:left;
+}
+/* sign in text */
+#signin-text {
+  font-weight: bold;
+  font-size: 85%;
+  position: relative;
+  padding: 17px 50px;
+  margin-left: 10px;
+}
+
+.topbar-menu {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 14px 15px 0 15px;
+  height: 27px;
+}
+
+#arrow {
+  width: 20px;
+  margin-left: 20px;
+}
+
+#search-box {
+  background-color: #E4E4E4;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+  margin: 5px 0 5px 5px;
+  float: left;
+}
+
+
+#glass {
+  height: 27px;
+  margin-top: 5px;
+  float:left;
+}
+
+.clear {
+  clear: both;
+
+}
+
+#menu-bar-container {
+  background-color: #BB1919;
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid #CCCCCC;
+
+}
+#menu-bar {
+  width: 1000px;
+  height: 60px;
+}
+
+
+h1 {
+
+  padding: 8px 0px 0 245px;
+  margin: 0 0 0 -75px;
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+}
+/* Change position of Home menu section. Place under News heading  */
+#menu-bar-2-container {
+  background-color: #A91717;
+  width: 100%;
+  position: relative;
+  float: inherit;
+  margin-left: auto;
+}
+#menu-bar-2 {
+  width: 1000px;
+  margin: 0 auto;
+  height: 40px;
+  margin-left: 163px;
+}
+/* styles all the links in menu-bar-2 the same */
+
+
+#menu-bar-2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 0px 10px;
+  position: relative;
+  border-right: 1px solid #BB4545;
+  top: 10px;
+
+  }
+
+  #menu-bar-2 a: hover {
+    text-decoration: underline;
+  }
+
+  /*!imortant takes importance over any other instructions */
+  .no-border {
+    border: none !important;
+  }
+
+  /* arrow needs to be closer to the word more */
+  #red-arrow {
+    height: 15px;
+    position: relative;
+    top: 12px;
+  }
+  #page-container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-weight: normal;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: -45px;
+    border-bottom: 2px solid #a91717;
+    width: 105px;
+  }
+  h3 a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: -45px;
+    width: 200px;
+
+
+  }
+
+  h3 a:hover {
+    color: #1167a8;
+
+
+  }
+
+  #article-summary {
+    color: #5a5a5a;
+    width: 250px;
+    margin-left: 167px;
+    float: left;
+    margin-left: -45px;
+
+  }
+  .clock {
+    height: 18px;
+    position: relative;
+    top:4px;
+    margin-left: -13px;
+
+  }
+
+  #article-summary a{
+    text-decoration: none;
+    color: #a91717;
+    border-left: 1px solid #CCCCCC;
+    padding-left: 10px;
+
+  }
+
+  #article-summary a:hover {
+    color: #1167a8;
+  }
+  .date {
+    padding: 0 5px 0 0 ;
+    color: #5a5a5a;
+
+}
+#article-container {
+  float: left;
+  width: 700px;
+  border-right: 1px solid #CCCCCC;
+
+
+}
+#main-article-img {
+  width: 400px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 0
+
+}
+
+#article-hr {
+  border-top: 1px solid #a91717;
+  width: 50px;
+}
+
+#black-arrow-img {
+  height: 10px;
+
+
+}
+
+.article-link {
+  color: black;
+  text-decoration: none;
+}
+
+#watch-listen {
+
+  margin-left: 5px;
+  width: 290px;
+  float:right;
+
+
+}
+#ad-img-2{
+  width: 200px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 0
+
+}
+
+#ad-img-1{
+  padding-top: 55px;
+  width: 800px;
+  height: 170px;
+  margin-left: 5px;
+  padding-bottom: 25px;
+
+}
+h4 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.article-side-image {
+  float: left;
+  width: 105px;
+  margin-right: auto;
+}
+
+.watch-listen-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px
+  float: right;
+   margin-left: 60px;
+
+
+}
+.watch-listen-link :hover {
+  color: #1167a8;
+
+
+  }
+.side-article {
+  float:left;
+  width: 135px;
+  position: relative;
+  top: -15px;
+  margin-left: 10px;
+
+}
+
+.no-border {
+  border-left: none;
+  padding: 0;
+
+}
+
+
+.topic-link {
+  text-decoration: none;
+  color: #a91717;
+  border-left: 1px solid #CCCCCC;
+  padding-left: 10px;
+}
+
+.border-right {
+  border-right: 1px solid #CCCCCC;
+
+
+}
