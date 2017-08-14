@@ -179,7 +179,7 @@
 					margin-left: -45px;
 
 				}
-				#article-summary img {
+				.clock {
 					height: 18px;
 					position: relative;
 					top:4px;
@@ -198,8 +198,9 @@
 				#article-summary a:hover {
 					color: #1167a8;
 				}
-				#date {
+				.date {
 					padding: 0 5px 0 0 ;
+					color: #5a5a5a;
 
 			}
 			#article-container {
@@ -234,8 +235,11 @@
 			}
 
 			#watch-listen {
-				float: left;
-				padding-left: 25px;
+
+				margin-left: 5px;
+				width: 290px;
+				float:right;
+
 
 			}
 			#ad-img-2{
@@ -250,13 +254,43 @@
 				padding-top: 55px;
 				width: 800px;
 				height: 170px;
-				margin-left: 30px;
+				margin-left: 5px;
 				padding-bottom: 25px;
 
 			}
 			h4 {
 				font-size: 30px;
 				font-weight: normal;
+			}
+
+			.article-side-image {
+				float: left;
+				width: 105px;
+				margin-right: auto;
+			}
+
+			.watch-listen-link {
+				text-decoration: none;
+				color: black;
+				font-weight: bold;
+				font-size: 18px
+				float: right;
+				 margin-left: 60px;
+
+
+			}
+			.watch-listen-link :hover {
+				color: #1167a8;
+
+
+				}
+			.side-article {
+				float:left;
+				width: 135px;
+				position: relative;
+				top: -15px;
+				margin-left: 10px;
+
 			}
 
 		</style>
@@ -358,7 +392,7 @@
 					<h3><a href="">Dark web markets boom after FBI busts</a> </h3>
 						<div id="article-summary">
 							<p>Following the closure of two illegal markets, listings on rival sites have risen by as much as 28%.</p>
-							<p><img src="images/clock.png"> <span id="date"></span>4 hours ago <a href=""> Technology</a> </p>
+							<p><img src="images/clock.png"> <span class="date"></span>4 hours ago <a href=""> Technology</a> </p>
 
 								<hr id="article-hr" align="left">
 
@@ -385,8 +419,15 @@
 				<img id="ad-img-2" src="images/ad-img-2.png">
 
 				<h4>Watch/Listen</h4>
+					<img class="article-side-image" src="images/article-1.png">
 
+						<div class="side-article">
+						<p><a class="watch-listen-link" href="">'Golden coder' making games apps at 82</a></p>
 
+						<p><img class="clock" src="images/clock.png"><span class="date"> 7 August 2017</span><a id="topic-link"
+					href="">Asia</a></p>
+
+				</div>
 
 
 
